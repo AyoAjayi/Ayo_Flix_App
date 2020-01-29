@@ -77,6 +77,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let posterPath = movie["poster_path"] as! String
         let posterUrl = URL(string: baseUrl + posterPath)
         
+        //Created custom cell
         cell.posterView.af_setImage(withURL: posterUrl!)
         return cell
     }
