@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EF6824C9F849293B0C7F429 /* Pods_Ayo_Flix_AppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD9FD73E460D1FD6F1E65856 /* Pods_Ayo_Flix_AppTests.framework */; };
 		3B02203923DE6DC600E506A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02203823DE6DC600E506A9 /* AppDelegate.swift */; };
 		3B02203B23DE6DC600E506A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02203A23DE6DC600E506A9 /* SceneDelegate.swift */; };
-		3B02203D23DE6DC600E506A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02203C23DE6DC600E506A9 /* ViewController.swift */; };
 		3B02204023DE6DC600E506A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B02203E23DE6DC600E506A9 /* Main.storyboard */; };
 		3B02204223DE6DC900E506A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B02204123DE6DC900E506A9 /* Assets.xcassets */; };
 		3B02204523DE6DC900E506A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B02204323DE6DC900E506A9 /* LaunchScreen.storyboard */; };
 		3B02205023DE6DC900E506A9 /* Ayo_Flix_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02204F23DE6DC900E506A9 /* Ayo_Flix_AppTests.swift */; };
 		3B02205B23DE6DC900E506A9 /* Ayo_Flix_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02205A23DE6DC900E506A9 /* Ayo_Flix_AppUITests.swift */; };
+		3B02206923DE718E00E506A9 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02206823DE718E00E506A9 /* MoviesViewController.swift */; };
+		3B02206B23E2350700E506A9 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B02206A23E2350700E506A9 /* MovieViewCell.swift */; };
+		E087802B686E31D15B8B9DA8 /* Pods_Ayo_Flix_App_Ayo_Flix_AppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B86392B32B495AF2E29AC89 /* Pods_Ayo_Flix_App_Ayo_Flix_AppUITests.framework */; };
+		E4DCD16B4108B7BA85CDF138 /* Pods_Ayo_Flix_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA55F95B18A6E1B8D61E97E /* Pods_Ayo_Flix_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00D9B44AAD50A0F91D1DCB17 /* Pods-Ayo_Flix_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ayo_Flix_App.debug.xcconfig"; path = "Target Support Files/Pods-Ayo_Flix_App/Pods-Ayo_Flix_App.debug.xcconfig"; sourceTree = "<group>"; };
+		0CA55F95B18A6E1B8D61E97E /* Pods_Ayo_Flix_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ayo_Flix_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		324ABCA35B11D28026FBA53E /* Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.release.xcconfig"; path = "Target Support Files/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3B02203523DE6DC500E506A9 /* Ayo_Flix_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ayo_Flix_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B02203823DE6DC600E506A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B02203A23DE6DC600E506A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3B02203C23DE6DC600E506A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B02203F23DE6DC600E506A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B02204123DE6DC900E506A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B02204423DE6DC900E506A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		3B02205623DE6DC900E506A9 /* Ayo_Flix_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Ayo_Flix_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B02205A23DE6DC900E506A9 /* Ayo_Flix_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ayo_Flix_AppUITests.swift; sourceTree = "<group>"; };
 		3B02205C23DE6DC900E506A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B02206823DE718E00E506A9 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		3B02206A23E2350700E506A9 /* MovieViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
+		6B86392B32B495AF2E29AC89 /* Pods_Ayo_Flix_App_Ayo_Flix_AppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ayo_Flix_App_Ayo_Flix_AppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9F3234E0214EDC783AFB24B /* Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.debug.xcconfig"; path = "Target Support Files/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D4C603963F247EFB84FCA400 /* Pods-Ayo_Flix_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ayo_Flix_App.release.xcconfig"; path = "Target Support Files/Pods-Ayo_Flix_App/Pods-Ayo_Flix_App.release.xcconfig"; sourceTree = "<group>"; };
+		F2CBAB7D1F7F2CF9E07CDD9E /* Pods-Ayo_Flix_AppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ayo_Flix_AppTests.release.xcconfig"; path = "Target Support Files/Pods-Ayo_Flix_AppTests/Pods-Ayo_Flix_AppTests.release.xcconfig"; sourceTree = "<group>"; };
+		F69362395193813118943490 /* Pods-Ayo_Flix_AppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Ayo_Flix_AppTests.debug.xcconfig"; path = "Target Support Files/Pods-Ayo_Flix_AppTests/Pods-Ayo_Flix_AppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9FD73E460D1FD6F1E65856 /* Pods_Ayo_Flix_AppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Ayo_Flix_AppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4DCD16B4108B7BA85CDF138 /* Pods_Ayo_Flix_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF6824C9F849293B0C7F429 /* Pods_Ayo_Flix_AppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E087802B686E31D15B8B9DA8 /* Pods_Ayo_Flix_App_Ayo_Flix_AppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		300059E24C9BF58001EA28DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				00D9B44AAD50A0F91D1DCB17 /* Pods-Ayo_Flix_App.debug.xcconfig */,
+				D4C603963F247EFB84FCA400 /* Pods-Ayo_Flix_App.release.xcconfig */,
+				B9F3234E0214EDC783AFB24B /* Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.debug.xcconfig */,
+				324ABCA35B11D28026FBA53E /* Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.release.xcconfig */,
+				F69362395193813118943490 /* Pods-Ayo_Flix_AppTests.debug.xcconfig */,
+				F2CBAB7D1F7F2CF9E07CDD9E /* Pods-Ayo_Flix_AppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3B02202C23DE6DC500E506A9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +114,8 @@
 				3B02204E23DE6DC900E506A9 /* Ayo_Flix_AppTests */,
 				3B02205923DE6DC900E506A9 /* Ayo_Flix_AppUITests */,
 				3B02203623DE6DC500E506A9 /* Products */,
+				300059E24C9BF58001EA28DC /* Pods */,
+				A8F5164C36F2D7CB72DF3181 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +134,12 @@
 			children = (
 				3B02203823DE6DC600E506A9 /* AppDelegate.swift */,
 				3B02203A23DE6DC600E506A9 /* SceneDelegate.swift */,
-				3B02203C23DE6DC600E506A9 /* ViewController.swift */,
 				3B02203E23DE6DC600E506A9 /* Main.storyboard */,
 				3B02204123DE6DC900E506A9 /* Assets.xcassets */,
 				3B02204323DE6DC900E506A9 /* LaunchScreen.storyboard */,
 				3B02204623DE6DC900E506A9 /* Info.plist */,
+				3B02206823DE718E00E506A9 /* MoviesViewController.swift */,
+				3B02206A23E2350700E506A9 /* MovieViewCell.swift */,
 			);
 			path = Ayo_Flix_App;
 			sourceTree = "<group>";
@@ -128,6 +162,16 @@
 			path = Ayo_Flix_AppUITests;
 			sourceTree = "<group>";
 		};
+		A8F5164C36F2D7CB72DF3181 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CA55F95B18A6E1B8D61E97E /* Pods_Ayo_Flix_App.framework */,
+				6B86392B32B495AF2E29AC89 /* Pods_Ayo_Flix_App_Ayo_Flix_AppUITests.framework */,
+				FD9FD73E460D1FD6F1E65856 /* Pods_Ayo_Flix_AppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B02205F23DE6DC900E506A9 /* Build configuration list for PBXNativeTarget "Ayo_Flix_App" */;
 			buildPhases = (
+				36F292D16C67AFC0E9A67DE3 /* [CP] Check Pods Manifest.lock */,
 				3B02203123DE6DC500E506A9 /* Sources */,
 				3B02203223DE6DC500E506A9 /* Frameworks */,
 				3B02203323DE6DC500E506A9 /* Resources */,
+				899B7AF50BD8E45F6AF5FE51 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B02206223DE6DC900E506A9 /* Build configuration list for PBXNativeTarget "Ayo_Flix_AppTests" */;
 			buildPhases = (
+				EAEDF02AC00740C73B627267 /* [CP] Check Pods Manifest.lock */,
 				3B02204723DE6DC900E506A9 /* Sources */,
 				3B02204823DE6DC900E506A9 /* Frameworks */,
 				3B02204923DE6DC900E506A9 /* Resources */,
@@ -170,9 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B02206523DE6DC900E506A9 /* Build configuration list for PBXNativeTarget "Ayo_Flix_AppUITests" */;
 			buildPhases = (
+				64D29DC7C504B9E8A16FC615 /* [CP] Check Pods Manifest.lock */,
 				3B02205223DE6DC900E506A9 /* Sources */,
 				3B02205323DE6DC900E506A9 /* Frameworks */,
 				3B02205423DE6DC900E506A9 /* Resources */,
+				A9CFC86FF761A168E3DEE314 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,14 +303,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36F292D16C67AFC0E9A67DE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ayo_Flix_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64D29DC7C504B9E8A16FC615 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		899B7AF50BD8E45F6AF5FE51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ayo_Flix_App/Pods-Ayo_Flix_App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ayo_Flix_App/Pods-Ayo_Flix_App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ayo_Flix_App/Pods-Ayo_Flix_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9CFC86FF761A168E3DEE314 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests/Pods-Ayo_Flix_App-Ayo_Flix_AppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAEDF02AC00740C73B627267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Ayo_Flix_AppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3B02203123DE6DC500E506A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B02203D23DE6DC600E506A9 /* ViewController.swift in Sources */,
 				3B02203923DE6DC600E506A9 /* AppDelegate.swift in Sources */,
+				3B02206B23E2350700E506A9 /* MovieViewCell.swift in Sources */,
 				3B02203B23DE6DC600E506A9 /* SceneDelegate.swift in Sources */,
+				3B02206923DE718E00E506A9 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +585,7 @@
 		};
 		3B02206023DE6DC900E506A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00D9B44AAD50A0F91D1DCB17 /* Pods-Ayo_Flix_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -449,6 +603,7 @@
 		};
 		3B02206123DE6DC900E506A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4C603963F247EFB84FCA400 /* Pods-Ayo_Flix_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +621,7 @@
 		};
 		3B02206323DE6DC900E506A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F69362395193813118943490 /* Pods-Ayo_Flix_AppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +643,7 @@
 		};
 		3B02206423DE6DC900E506A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2CBAB7D1F7F2CF9E07CDD9E /* Pods-Ayo_Flix_AppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +665,7 @@
 		};
 		3B02206623DE6DC900E506A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9F3234E0214EDC783AFB24B /* Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +685,7 @@
 		};
 		3B02206723DE6DC900E506A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 324ABCA35B11D28026FBA53E /* Pods-Ayo_Flix_App-Ayo_Flix_AppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
