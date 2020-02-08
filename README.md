@@ -41,5 +41,5 @@ Describe any challenges encountered while building the app.
 - [ ] (1pt) Run your app on a real device.
 
 ### App Walkthough GIF
-<img src="http://g.recordit.co/X3DcM6HBGt.gif" width=250><br>
+<img src="http://g.recordit.co/RfLQhUWCeg.gif" width=250><br>
 
