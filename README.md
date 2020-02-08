@@ -7,8 +7,8 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 ### User Stories
 
 #### REQUIRED (10pts)
-- [ ] (5pts) User can tap a cell to see more details about a particular movie.
-- [ ] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] (5pts) User can tap a cell to see more details about a particular movie.
+- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
 
 #### BONUS
 - [ ] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
@@ -16,7 +16,14 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### App Walkthough GIF
 <img src="http://g.recordit.co/X3DcM6HBGt.gif" width=250><br>
+
+
+### Notes
+Describe any challenges encountered while building the app.
+- I was not able to push the changes I made on github. I had to create a new branch named changes which contains all the files that was modified for part 2. When I tried to pull, my current xcode environment was overwritten to its previous version.
+
 ---
+
 
 ## Flix Part 1
 
